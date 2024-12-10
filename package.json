@@ -1,0 +1,13 @@
+{
+  "name": "node-smpp-example",
+  "private": true,
+  "scripts": {
+    "start:server": "node src/server.js",
+    "start:client": "node src/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "smpp": "^0.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
